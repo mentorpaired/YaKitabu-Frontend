@@ -1,1 +1,0 @@
-# yakitabu-frontend
