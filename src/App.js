@@ -2,7 +2,8 @@
 function App() {
   return (
     <div className="App">
-       <p>Hello World!</p>             
+       <p>yakitabu.io</p>    
+       <p>Hello World!</p>           
     </div>
   );
 }
