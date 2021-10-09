@@ -1,3 +1,28 @@
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/GaiJno0.png" alt="Project logo"></a>
+</p>
+
+
+<h3 align="center">Yakitabu Frontend</h3>
+
+<div align="center">
+
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+![GitHub issues](https://img.shields.io/github/issues/mentorpaired/yakitabu-frontend)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/mentorpaired/yakitabu-frontend?color=light%20green)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+
+</div>
+
+---
+
+<p align="center"> 
+    <br> 
+</p>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
