@@ -5,11 +5,6 @@ const Loginpage =() => {
         return (
         <div>
             <form>
-
-                {/* <div className="sign-in"> 
-                <h3>Sign In</h3>
-                </div> */}
-            
                 <div className="form-group">
                     <h3>Sign In</h3>
 
