@@ -1,9 +1,10 @@
+import Landingpage from "./components/Landingpage";
 
 function App() {
   return (
     <div className="App">
-       <p>yakitabu.io </p>    
-       <p>Hello World!</p>           
+       
+        <Landingpage/>    
     </div>
   );
 }
