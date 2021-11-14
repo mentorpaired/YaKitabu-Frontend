@@ -1,6 +1,6 @@
 import './App.css';
-import SignUp from './components/SignUp
-import Landingpage from "./components/Landingpage";
+import SignUp from './components/SignUp';
+import Landingpage from './components/Landingpage';
 
 function App() {
   return (

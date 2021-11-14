@@ -3,7 +3,10 @@ import App from './App';
 
 test('renders signup page link', () => {
   render(<App />);
-  const linkElement = screen.getByText(/SignUp/i);
-  const linkElement = screen.getByText(/I have an account/i);
-  expect(linkElement).toBeInTheDocument();
+
+  const signupElement = screen.getByText(/SignUp/i);
+  const accountElement = screen.getByText(/I have an account/i);
+
+  expect(signupElement).toBeInTheDocument();
+  expect(accountElement).toBeInTheDocument();
 });
