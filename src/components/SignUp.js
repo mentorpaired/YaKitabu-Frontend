@@ -1,6 +1,6 @@
 import React from "react";
 import '../index.css';
-// convert to functinoal comp
+
 const SignUp =() => {
         return (
         <div>
@@ -20,7 +20,7 @@ const SignUp =() => {
                     </div>
 
                     <div className="btns"> 
-                    <button type="submit" className="btn">Sign Up</button>
+                    <button type="submit" className="btn">signUp</button>
                    </div> 
                 </div>
             </form>
