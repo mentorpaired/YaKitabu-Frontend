@@ -21,7 +21,7 @@ const Loginpage =() => {
                     <button type="submit" className="btn">Log In</button>
                     <p className="forgot-password text-right">
                         {/* <a>Forgot My Password?</a> */}
-                        Forgot <a href="#">password?</a>
+                        Forgot <a href="# ">password?</a>
                     </p>
                 </div>
             </form>
