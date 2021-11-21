@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import '../index.css';
 // 
@@ -19,7 +20,8 @@ const Loginpage =() => {
 
                     <button type="submit" className="btn">Log In</button>
                     <p className="forgot-password text-right">
-                        <a>Forgot My Password?</a>
+                        {/* <a>Forgot My Password?</a> */}
+                        Forgot <a href="#">password?</a>
                     </p>
                 </div>
             </form>
