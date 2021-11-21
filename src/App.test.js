@@ -6,6 +6,14 @@ test('renders landingpage', () => {
   render(<App />);
 
   const textElement = screen.getByText(/Already have an account?/i);
+  expect(textElement).toBeInTheDocument("Already have an account");
+});
 
-  expect(textElement).toBeInTheDocument();
+test('renders login page', () => {
+  render(<App />);
+
+  const rememberElement = screen.getByText(/Remember Me/i);
+
+  expect(accountElement).toBeInTheDocument("Remember Me");
+
 });

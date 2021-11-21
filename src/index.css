@@ -77,4 +77,35 @@ img {
   width: 250px;
   margin: auto;
   padding-top: 80px;
+
+
+.sign-in
+{
+  padding:20px
+}
+
+.form-group
+{
+  padding:20%;
+  text-align:2px;
+}
+
+.form-control
+{
+  margin:10px;
+  border-color:#05BB7A;
+  padding:2px;
+}
+
+.btn
+{
+    background-color: #05bb7a;
+    font-size: 12px;
+    font-weight: 600;
+    width: 150px;
+    color: #ffffff;
+    text-align: center;
+    border-style: hidden;
+    border-radius: 12px;
+    padding: 12px;
 }
