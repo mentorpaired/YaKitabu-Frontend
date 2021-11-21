@@ -14,27 +14,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.btn {
-  background-color: #05bb7a;
-  font-size: 12px;
-  font-weight: 600;
-  width: 150px;
-  color: #ffffff;
-  text-align: center;
-  border-style: hidden;
-  border-radius: 12px;
-  padding: 12px;
+
+
+.sign-in
+{
+  padding:20px
 }
 
-.wrapper {
-  max-width: 180px;
-  margin:auto;
-  background-color: white;
-  padding: 10%;
-  position: relative;
-  top: 160px;
+.form-group
+{
+  padding:20%;
+  text-align:2px;
 }
 
-.Logo {
-  background-image: url(./images/yakitabu-logo.png);
+.form-control
+{
+  margin:10px;
+  border-color:#05BB7A;
+  padding:2px;
+}
+
+.btn
+{
+    background-color: #05bb7a;
+    font-size: 12px;
+    font-weight: 600;
+    width: 150px;
+    color: #ffffff;
+    text-align: center;
+    border-style: hidden;
+    border-radius: 12px;
+    padding: 12px;
 }
