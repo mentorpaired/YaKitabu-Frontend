@@ -15,5 +15,4 @@ test('renders login page', () => {
   const rememberElement = screen.getByText(/Remember Me/i);
 
   expect(accountElement).toBeInTheDocument("Remember Me");
-
 });
