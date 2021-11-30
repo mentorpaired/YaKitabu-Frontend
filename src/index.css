@@ -65,7 +65,7 @@ h3,h4{
   margin:auto;
   background-color: rgb(255, 255, 255);
   position: relative;
-  top: 100px;
+  top: 80px;
 }
 
 img {
@@ -127,9 +127,9 @@ h3,h4{
 .wrapper {
   width: 250px;
   margin:auto;
-  background-color: rgb(255, 255, 255);
+  background-color:white;
   position: relative;
-  top: 100px;
+  top: 20px;
 }
 
 img {
