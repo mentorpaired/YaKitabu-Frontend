@@ -1,6 +1,8 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom'
 import App from './App';
+import Loginpage from './components/Loginpage';
 
 test('renders landingpage', () => {
   render(<App />);
@@ -10,9 +12,9 @@ test('renders landingpage', () => {
 });
 
 test('renders login page', () => {
-  render(<App />);
+  render(<Loginpage />);
 
   const rememberElement = screen.getByText("Remember Me");
-  
   expect(rememberElement).toBeInTheDocument();
 });
+
