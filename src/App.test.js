@@ -1,12 +1,20 @@
+import React from 'react';
 import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom'
 import App from './App';
+import Loginpage from './components/Loginpage';
 
-test('renders landing page link', () => {
+test('renders landingpage', () => {
   render(<App />);
 
-  const accountElement = screen.getByText(/I have an account/i);
-  const rememberElement = screen.getByText(/Remember Me/i);
+  const textElement = screen.getByText("Already have an account?");
+  expect(textElement).toBeInTheDocument();
+});
 
-  expect(accountElement).toBeInTheDocument();
+test('renders login page', () => {
+  render(<Loginpage />);
+
+  const rememberElement = screen.getByText("Remember Me");
   expect(rememberElement).toBeInTheDocument();
 });
+
